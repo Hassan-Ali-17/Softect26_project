@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hassa/OneDrive%20-%20Higher%20Education%20Commission/Desktop/Softec%20Project/fairgig/frontend/components/provider.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { QueryClient, QueryClientProvider } from '@tanstack/react-query';\r\nimport { useState } from 'react';\r\nimport { Toaster } from 'sonner';\r\n\r\nexport default function Provider({ children }: { children: React.ReactNode }) {\r\n  const [client] = useState(() => new QueryClient());\r\n\r\n  return (\r\n    <QueryClientProvider client={client}>\r\n      {children}\r\n      <Toaster richColors position=\"top-right\" />\r\n    </QueryClientProvider>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAAA;AACA;AACA;;;AAJA;;;;AAMe,SAAS,SAAS,KAA2C;QAA3C,EAAE,QAAQ,EAAiC,GAA3C;;IAC/B,MAAM,CAAC,OAAO,GAAG,IAAA,yKAAQ;6BAAC,IAAM,IAAI,+LAAW;;IAE/C,qBACE,6LAAC,gNAAmB;QAAC,QAAQ;;YAC1B;0BACD,6LAAC,sJAAO;gBAAC,UAAU;gBAAC,UAAS;;;;;;;;;;;;AAGnC;GATwB;KAAA","debugId":null}}]
+}

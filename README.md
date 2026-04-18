@@ -1,4 +1,3 @@
-# Softect26_project
 <div align="center">
 
 # ⚡ FairGig
@@ -25,9 +24,9 @@
 
 | Name | Role |
 |---|---|
-| **Hassan Ali Shah** | Team Member |
-| **Ahsen Ali** | Team Member |
-| **Noor ul Hassan** | Team Member |
+| [**Hassan Ali Shah**](https://github.com/Hassan-Ali-17) | Team Member |
+| [**Ahsen Ali**](https://github.com/ahsen24056ali) | Team Member |
+| [**Noor ul Hassan**](https://github.com/Nooru-dotcom) | Team Member |
 
 ---
 
